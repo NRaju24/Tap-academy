@@ -6,16 +6,58 @@
     <title>Home</title>
     <link rel="stylesheet" href="Style.css">
 </head>
+    <style>
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .box {
+        display: flex;
+        align-items: center;
+    }
+
+    .box1,
+    .box2 {
+        display: flex;
+        align-items: center;
+        margin-right: 10px; /* Adjust as needed */
+    }
+
+    .box2 {
+        margin-right: 0;
+    }
+
+    .box3 {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Adjust image size if needed */
+    img {
+        height: 25px;
+        width: 25px;
+    }
+</style>
 <body>
-    <div class = "box">
-        <div class = "box1"><img src="images/call.png" height="25" width="25" alt="">
+    <div class="container">
+    <div class="box">
+        <div class="box1">
+            <img src="images/call.png" alt="">
             <p>08069878321</p>
         </div>
-        <div class = "box2"> 
-            <div class = "box3">
-                <a href="mailto:hello@thetapacademy.com"><img src="images/mail.png" height="25" width="25" alt=""></a> 
+    </div>
+    <div class="box">
+        <div class="box2">
+            <div class="box3">
+                <a href="mailto:hello@thetapacademy.com"><img src="images/mail.png" alt=""></a>
                 <a href="mailto:hello@thetapacademy.com"><p>hello@thetapacademy.com</p></a>
-             </div>
+            </div>
+        </div>
+    </div>
+</div>
              <div class = "box4">
                 <a href="https://www.youtube.com/@Tapacadlive"><img src="images/youtube.png"height="25" width="25" alt=""></a> 
                  <a href="https://www.instagram.com/p/ChMwJThv-pO/"><img src="images/instagram.png"height = "25" width="25" alt=""></a>
